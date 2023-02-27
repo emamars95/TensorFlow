@@ -1,11 +1,31 @@
-# TensorFlow #
+# Tutorial Machine Learning #
 
-This folder contains a few tutorials for beginners of TensorFlow. The goal of this series of tutorial is to introduce the reader to the basic concepts of Machine Learning (ML) and, more specifically, to the Deep Learning (DL) algorithm using engaging examples and posing challenging questions. The final idea is to make a series of youtube videos. The main source for this tutorial is "Zero to Hero" from TensorFlow.  
+This tutorial is designed for beginner and intermediate users that gain experience with the commonly used tools for data analysis and molecular dynamics simulation using Machine Learning (ML) and Neural Networks (NN). The folder contains 6 tutorials that span several topics from Computer vision using TensorFlow to running atomistic molecular dynamics using a Deep Learning Neural Network.
 
-## First Tutorial: Computer_Vision.ipynb ## 
+## Data Analysis with KKR ## 
 
-In this first tutorial, we move to the first steps with TensorFlow. The goal is not to explain exactly all the algorithms behind the Neural Network (NN) optimization but rather give a first feeling on the concepts behind ML. We create a simple, single-layer NN to recognize different objects from a set of images extracted from the omnipresent MNIST library. 
+In this tutorial, we introduce Kernel ridge regression (KKR) and apply it to an energy profile computed with Full CI. We define the KKR formula inside the class KKR and apply it to a sample dataset. This tutorial is implemented using Google Colab, a free cloud-based service for running Jupyter Notebooks with GPU support.
 
-# Machine Learning and Quantum Computing # 
+## Data Analysis with Unsupervised Learning ## 
 
-This is a collection of a few examples which incorporate ML methods for clustering and unsupervised learning, deep learning, and quantum computer alghoritms. The main focus of this examples is related to chemistry and molecular dynamics. Even tough it is not complete yet, I aim to produce a comprehsive set of eamples usable by computational chemistry and AI engeeneers. The examples aim to make clear the key concepts behind ML and Quantum Computing (QC) alghorithms that can be applied to chemistry and molecular dynamics. 
+We give two examples of unsupervised ML methods applied to molecular dynamics and nonadiabatic molecular dynamics. 
+
+### Tutorial 1 ### 
+
+In this tutorial devised with Jupyter notebook, we explore data analysis using pandas and scikit-learn. We perform Principal Component Analysis (PCA) and Kernel PCA to investigate the most important modes featuring the molecular dynamics of ethylene. 
+
+### Tutorial 2 ###
+
+In this tutorial devised with Jupyter notebook, we investigate the recently released ulamdyn package: a general open-source software for unsupervised ML which finds application in nonadiabatic molecular dynamics. We use both PCA and nonlinear reduction methods (isomap) to rationalize the photochemistry of fulvene. 
+
+## Computer Vision ## 
+
+In this tutorial, we take our first steps with TensorFlow and build a simple, single-layer neural network to recognize different objects from a set of images extracted from the MNIST library. While the focus is not on the detailed algorithms behind neural network optimization, the tutorial provides a first introduction to neural network concepts.
+
+## Train a Neural Network ## 
+
+In this tutorial devised with Jupyter notebook, we use PyTorc to train a simple Neural Network and explore the different parameters that may influence its performance. We are going to investigate the activation functions, training sets, and optimization procedures. 
+
+## Molecular Dynamics with Deep Learning ## 
+
+In this tutorial devised with Jupyter notebook, we introduce Schnetpack: open-source software to run molecular dynamics and nonadiabatic molecular dynamics. Schnetpack is a  neural network able to predict the energy and forces of a molecule given a particular geometry which allows to speed up considerably the underlined atomistic molecular dynamics simulation. 
