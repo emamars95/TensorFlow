@@ -1,6 +1,6 @@
 # Tutorial Machine Learning #
 
-This tutorial is designed for beginner and intermediate users that gain experience with the commonly used tools for data analysis and molecular dynamics simulation using Machine Learning (ML) and Neural Networks (NN). The folder contains 6 tutorials that span several topics from Computer vision using TensorFlow to running atomistic molecular dynamics using a Deep Learning Neural Network.
+These tutorials are designed for beginner and intermediate users that gain experience with the commonly used tools for data analysis and molecular dynamics simulation using Machine Learning (ML) and Neural Networks (NN). The folder contains 6 tutorials that span several topics from Computer vision using TensorFlow to running atomistic molecular dynamics using a Deep Learning Neural Network.
 
 ## Data Analysis with KKR ## 
 
@@ -29,3 +29,11 @@ In this tutorial devised with Jupyter notebook, we use PyTorc to train a simple 
 ## Molecular Dynamics with Deep Learning ## 
 
 In this tutorial devised with Jupyter notebook, we introduce Schnetpack: open-source software to run molecular dynamics and nonadiabatic molecular dynamics. Schnetpack is a  neural network able to predict the energy and forces of a molecule given a particular geometry which allows to speed up considerably the underlined atomistic molecular dynamics simulation. 
+
+# Tutorial Quantum Computing #
+
+These tutorials are designed for beginner and intermediate users that gain experience with the commonly used tools for data analysis and molecular dynamics simulation using Quantum Computing. The folder contains 4 tutorials related with simple electronic structure calculation to compute energy and forces required for molecular dynamics simulation. 
+
+## Variational Quantum Eigensolver ## 
+
+
