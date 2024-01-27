@@ -1,5 +1,0 @@
-sudo apt install libgomp1
-sudo apt install gcc
-conda create --name QC_CECAM
-conda init bash
-echo Close the terminal and run commands from install_2.txt now
